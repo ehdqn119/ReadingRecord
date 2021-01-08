@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ReadingRecord.iml" filepath="$PROJECT_DIR$/.idea/ReadingRecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/이펙티브 자바.iml" filepath="$PROJECT_DIR$/.idea/modules/이펙티브 자바.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/자바의정석.iml" filepath="$PROJECT_DIR$/.idea/modules/자바의정석.iml" />
     </modules>
   </component>
 </project>
