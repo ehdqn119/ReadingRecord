@@ -2,40 +2,41 @@ package InterfaceP;
 
 public class ExtendsChaining {
     public static void main(String[] args) {
-        C c = new C();
-        c.InB(new D());
+        //Q ,  W
+        Q q = new Q();
+        q.printQ(new W());
 
-        CA ca = new CA();
-        CD cd = new CD();
-        ca.printCA(cd);
+        Z z = new Z();
+        z.printZ(new X());
     }
 }
 
-class C {
-    public void InB(D d) {
-        d.dPrint();
+class Q {
+    public void printQ(W w) {
+        w.printW();
     }
 }
 
-class D {
-    public void dPrint() {
-        System.out.println("print d!!");
+class W {
+    public void printW() {
+        System.out.println("W!!");
     }
 }
 
-class CA {
-    public void printCA(CDI cdi ) {
-        cdi.printCD();
+class Z {
+    public void printZ(I i) {
+        i.printX();
     }
 }
 
-class CD implements CDI {
+class X implements I {
     @Override
-    public void printCD() {
-        System.out.println("Print CD!!");
+    public void printX() {
+        System.out.println("X!!");
     };
 }
 
-interface CDI {
-    public void printCD();
+interface I {
+    public void printX();
 }
+
