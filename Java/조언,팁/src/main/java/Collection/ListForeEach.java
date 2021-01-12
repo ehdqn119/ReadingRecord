@@ -9,6 +9,7 @@ class forEach {
     public <T> List<T> returnArrayList(List<T> list) {
         for(int i=0; i<=list.size(); i++) {
             T t = list.get(i);
+
         };
         return list;
     }
