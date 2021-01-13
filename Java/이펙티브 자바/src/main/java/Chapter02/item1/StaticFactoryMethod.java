@@ -69,7 +69,14 @@ class Point extends  Discount {
     }
 }
 
-class Discount{
+class Discount{ }
 
+
+
+class A{};
+class B extends C{};
+class C{
+    public C extendsReturn() {
+        return new B();
+    }
 }
-
