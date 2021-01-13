@@ -1,15 +1,19 @@
 package Memory;
 
 public class DI {
-    static final Injection A = new Injection();
-    private final Injection B;
+    public static final Service service;
+    public DI(Service service2) {
+        service = service2;
+    }
 
+    public static void main(String[] args) {
+        DI di = new DI(new Service());
 
-    public DI(Injection b) {
-        B = b;
     }
 }
 
-class Injection {
-
+class Service {
+    public void servicePrint() {
+        System.out.println("Service!!");
+    }
 }
