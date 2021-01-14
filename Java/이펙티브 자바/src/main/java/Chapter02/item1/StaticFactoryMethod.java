@@ -26,6 +26,10 @@ public class StaticFactoryMethod {
 }
 
 // immutable
+
+
+
+// 하위 자료형 리턴 가능
 class OrderUtil {
     public static Discount createDiscountItem(String discountCode) throws Exception {
         if(!isValidCode(discountCode)) {
@@ -55,7 +59,6 @@ class OrderUtil {
         OrderUtil.createDiscountItem("5554433");
     }
 }
-
 class Coupon extends Discount{
     private int value;
     public Coupon(int value) {
@@ -68,15 +71,30 @@ class Point extends  Discount {
         this.value = value;
     }
 }
-
 class Discount{ }
 
 
+class a extends mother {
+}
 
-class A{};
-class B extends C{};
-class C{
-    public C extendsReturn() {
-        return new B();
+class b extends  mother{
+}
+class mother {
+    public mother returnmother(String z) throws  Exception {
+        if(z == "") { return new a(); };
+        if(z != "1") { return new b(); };
+        throw new Exception("오류");
+    };
+    public mother() {
+    };
+
+
+    public static void main(String[] args) throws Exception{
+        mother moa = new mother();
+        moa.returnmother("asd");
     }
 }
+
+
+
+
