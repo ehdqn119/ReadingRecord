@@ -12,10 +12,17 @@ InterfaceP/ReturnParameter.java
  InterfaceP.ReturnParameter$1
  InterfaceP.aSon
  InterfaceP.bSon
+InnerClass/Outer.java
+ InnerClass.Outer
+ InnerClass.Outer$Inner
+ InnerClass.Outer$staticInner
 InterfaceP/ExtendsChaining.java
- InterfaceP.C
- InterfaceP.CA
- InterfaceP.CD
- InterfaceP.CDI
- InterfaceP.D
  InterfaceP.ExtendsChaining
+ InterfaceP.I
+ InterfaceP.Q
+ InterfaceP.W
+ InterfaceP.X
+ InterfaceP.Z
+AllChoice/DiTest.java
+ AllChoice.DiTest
+ AllChoice.Dictionary
