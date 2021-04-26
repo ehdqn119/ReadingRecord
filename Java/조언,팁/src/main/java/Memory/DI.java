@@ -1,3 +1,4 @@
+/*
 package Memory;
 
 public class DI {
@@ -17,3 +18,4 @@ class Service {
         System.out.println("Service!!");
     }
 }
+*/

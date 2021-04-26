@@ -1,9 +1,3 @@
-InterfaceP/extendsImplement.java
- InterfaceP.People
- InterfaceP.extendsImplement
- InterfaceP.left
- InterfaceP.moveable
- InterfaceP.right
 InterfaceP/ReturnParameter.java
  InterfaceP.A
  InterfaceP.B
@@ -12,10 +6,6 @@ InterfaceP/ReturnParameter.java
  InterfaceP.ReturnParameter$1
  InterfaceP.aSon
  InterfaceP.bSon
-InnerClass/Outer.java
- InnerClass.Outer
- InnerClass.Outer$Inner
- InnerClass.Outer$staticInner
 InterfaceP/ExtendsChaining.java
  InterfaceP.ExtendsChaining
  InterfaceP.I
@@ -23,6 +13,15 @@ InterfaceP/ExtendsChaining.java
  InterfaceP.W
  InterfaceP.X
  InterfaceP.Z
-AllChoice/DiTest.java
- AllChoice.DiTest
- AllChoice.Dictionary
+InterfaceP/extendsImplement.java
+ InterfaceP.People
+ InterfaceP.extendsImplement
+ InterfaceP.left
+ InterfaceP.moveable
+ InterfaceP.right
+InnerClass/Outer.java
+ InnerClass.Outer
+ InnerClass.Outer$Inner
+ InnerClass.Outer$staticInner
+Collections/Casting.java
+ Collections.Casting

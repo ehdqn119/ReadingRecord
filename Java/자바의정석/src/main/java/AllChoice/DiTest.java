@@ -1,3 +1,4 @@
+/*
 package AllChoice;
 
 public class DiTest {
@@ -24,4 +25,4 @@ class Dictionary {
     public String getTitle() {
         return title;
     }
-}
+}*/
